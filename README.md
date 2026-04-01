@@ -119,24 +119,52 @@ HireLens evaluates resumes on **7 dimensions**, each scored 1–10:
 
 ## AI Providers
 
-Choose your provider — each has different pricing, speed, and capabilities. **All API keys are user-provided and never stored by HireLens.**
+HireLens supports **5 leading AI providers** with bring-your-own-key architecture. **All API keys are user-provided and never stored by HireLens** — you maintain full control.
 
-### Free Tier ✨ (no credit card)
+### Provider Comparison
 
-| Provider | Models | Speed | Best For | Setup |
-|---|---|---|---|---|
-| **Groq** *(default)* | LLaMA 3.3 70B, Mixtral 8x7B | ⚡⚡⚡ Very Fast | Starting out, high volume | [console.groq.com](https://console.groq.com) |
-| **Google Gemini** | Gemini 2.0 Flash, Gemini 1.5 Flash | ⚡⚡ Fast | Generalist analysis | [aistudio.google.com](https://aistudio.google.com) |
+| Provider | Tier | Models | Latency | Free Quota | Best For | Setup Link |
+|---|---|---|---|---|---|---|
+| **Groq** 🚀 | Free | LLaMA 3.3 70B, Mixtral 8x7B | ⚡⚡⚡ 3–5s | Unlimited* | **→ Start here** — fastest, most generous | [console.groq.com](https://console.groq.com) |
+| **Google Gemini** | Free | Gemini 2.0 Flash, Gemini 1.5 Flash | ⚡⚡ 4–7s | 15 req/min | All-rounder, good quality | [aistudio.google.com](https://aistudio.google.com) |
+| **OpenAI** | Paid | GPT-4o, GPT-4o-mini, GPT-4 Turbo | ⚡⚡ 5–9s | — | Production, premium quality | [platform.openai.com](https://platform.openai.com) |
+| **Anthropic** | Paid | Claude Sonnet 4.6, Claude Opus 4.6, Claude Haiku 4.5 | ⚡ 6–10s | — | Deep reasoning, nuance | [console.anthropic.com](https://console.anthropic.com) |
+| **Mistral** | Paid | Mistral Large, Mistral Small, open-mistral-nemo | ⚡⚡ 7–12s | — | Cost-effective, fast | [console.mistral.ai](https://console.mistral.ai) |
 
-### Paid Tier 💳 (excellent quality)
+*Groq's free tier has very generous limits (100s of analyses/day for personal use)
 
-| Provider | Models | Speed | Best For | Setup |
-|---|---|---|---|---|
-| **OpenAI** | GPT-4o, GPT-4o-mini, GPT-4 Turbo | ⚡⚡ Fast | Production, premium quality | [platform.openai.com](https://platform.openai.com) |
-| **Anthropic** | Claude Sonnet 4.6, Claude Opus 4.6, Claude Haiku 4.5 | ⚡ Moderate | Nuanced reasoning | [console.anthropic.com](https://console.anthropic.com) |
-| **Mistral** | Mistral Large, Mistral Small, open-mistral-nemo | ⚡⚡ Fast | Cost-effective | [console.mistral.ai](https://console.mistral.ai) |
+### Getting Started
 
-**Recommendation for first-time users:** Start with **Groq** (fastest, most generous free tier). No account setup delays, instant feedback.
+<details>
+<summary><strong>Option 1: Free (Recommended for trying HireLens)</strong></summary>
+
+**Groq** is the best free option:
+1. Go to [console.groq.com](https://console.groq.com)
+2. Sign up with email
+3. Copy your API key
+4. Paste into HireLens (in the sidebar)
+5. Start analyzing — no credit card, no limits
+
+**Alternative:** Google Gemini if you prefer Google's models
+</details>
+
+<details>
+<summary><strong>Option 2: Paid (For production/frequent use)</strong></summary>
+
+Pick one:
+- **OpenAI** — Most popular, excellent quality (costs ~$0.01–0.05 per analysis)
+- **Anthropic** — Best reasoning, nuanced feedback (similar pricing)
+- **Mistral** — Budget-friendly alternative (slightly cheaper)
+
+Each provider has a free trial credit ($5–20) to test before paying.
+</details>
+
+### Why Multiple Providers?
+
+- ✅ **No lock-in** — Switch anytime, no rewrite needed
+- ✅ **Redundancy** — If one provider is down, use another
+- ✅ **Cost optimization** — Use free tier for development, paid for production
+- ✅ **Quality comparison** — Test which provider you prefer
 
 ---
 
