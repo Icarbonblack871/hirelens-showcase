@@ -196,6 +196,57 @@ When generating a polished version of your resume, choose a theme:
 
 ---
 
+## Real-World Example: Before & After
+
+### Before Analysis
+```
+Senior Software Engineer | 2020 – Present
+• Worked on backend systems
+• Improved performance
+• Led team projects
+• Handled deployment
+```
+
+**HireLens Score:** 5.2/10
+- Clarity: 4 (vague language)
+- Impact: 3 (no quantified results)
+- Measurable Outcomes: 2 (no metrics)
+- Role Alignment: 6 (generic skills)
+
+---
+
+### After AI Rewrite
+```
+Senior Software Engineer | 2020 – Present
+• Architected and deployed microservices serving 2M+ daily requests,
+  reducing API latency by 40% (450ms → 270ms)
+• Led cross-functional team of 6 engineers through 3 major system migrations,
+  achieving 99.99% uptime SLA
+• Implemented automated deployment pipeline reducing release time from 2h to 8min,
+  enabling 50+ weekly deployments
+• Mentored 4 junior engineers to senior roles, conducting 100+ code reviews
+```
+
+**HireLens Score:** 8.7/10
+- Clarity: 9 (specific, measurable)
+- Impact: 9 (quantified business value)
+- Measurable Outcomes: 9 (metrics: 40%, 99.99%, 50+)
+- Role Alignment: 8 (technical leadership evident)
+
+---
+
+### The Difference
+| Metric | Before | After | Improvement |
+|---|---|---|---|
+| ATS Score | 62 | 89 | +27 points ⬆️ |
+| Word count | 38 | 89 | +135% (more substantive) |
+| Quantified metrics | 0 | 7 | +700% |
+| Action verbs | 2 | 12 | 6× more impactful |
+
+**Why it matters:** The "after" version passes ATS filters, catches recruiter attention in 6 seconds, and clearly demonstrates business impact. Same role, dramatically better presentation.
+
+---
+
 ## FAQ
 
 **Q: Do you store my resume?**
@@ -279,13 +330,67 @@ This design ensures:
 - ✅ Freedom to switch providers without code changes
 - ✅ Clean, testable codebase
 
-**Data flow:** User uploads → Text extraction → AI analysis → Score aggregation → Charts & export
+### System Flow
+
+```
+┌─────────────┐
+│   User      │
+│  (Browser)  │
+└──────┬──────┘
+       │ Resume (PDF/TXT)
+       ▼
+┌──────────────────────┐
+│  Streamlit UI        │
+│ (Upload, Settings)   │
+└──────┬───────────────┘
+       │ Provider selection
+       │ + Job description
+       ▼
+┌──────────────────────┐
+│  AI Provider Adapter │  ◄─── Groq, OpenAI, Anthropic, Gemini, Mistral
+│ (Abstract Interface) │
+└──────┬───────────────┘
+       │ Structured prompt
+       ▼
+┌──────────────────────┐
+│  LLM API Call        │
+│ (Any provider)       │
+└──────┬───────────────┘
+       │ JSON response
+       ▼
+┌──────────────────────┐
+│  Score Aggregation   │
+│ (7 categories)       │
+└──────┬───────────────┘
+       │
+       ├─► Charts (Plotly)
+       ├─► Feedback text
+       ├─► Keyword matches
+       ├─► ATS simulation
+       └─► Exports (PDF, CSV, Docs)
+```
+
+**Data persistence:** All analyses stored in SQLite for history & trend tracking
+
+---
+
+## 🔒 Source Code Access
+
+**The full source code is available for technical interviews and code review.**
+
+The repository is currently private to protect proprietary prompt engineering techniques and system design details. However:
+
+- ✅ Recruiters & hiring managers — I'll grant access upon request
+- ✅ Interview preparation — Full codebase available before technical interviews
+- ✅ Architecture deep-dive — Walk through design decisions, trade-offs, and implementation
+
+**Why private?** The prompt engineering, scoring logic, and multilingual adaptation techniques are proprietary. The value is in the *how*, not just the *what*.
 
 ---
 
 ## Contributing
 
-The source code is currently private (to protect proprietary prompt engineering). However, contributions are welcome!
+Found a bug or have a feature idea?
 
 - **Found a bug?** Open an issue on the [showcase repo](https://github.com/theshindesahil/hirelens-showcase/issues)
 - **Have a feature idea?** [Submit a feature request](https://github.com/theshindesahil/hirelens-showcase/issues)
