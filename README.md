@@ -100,20 +100,20 @@ HireLens evaluates resumes on **7 dimensions**, each scored 1–10:
 
 ## Features
 
-- ✅ **7-category AI scoring** with composite score (1–10)
-- ✅ **Job description matching** — Required / Preferred / Nice-to-have keyword tiers with relevance %
-- ✅ **ATS simulation** — see extracted text, parsability score, formatting issues
-- ✅ **AI resume rewriting** — bullet-point suggestions side-by-side with originals + reasoning
-- ✅ **Cover letter generation** — auto-drafted, tailored to role + resume
-- ✅ **Integrated job search** — live listings from Jobicy, JSearch, Adzuna, ranked by relevance to your skills
-- ✅ **Multi-candidate comparison** — upload 2+ resumes, auto-rank by composite fit, get interview recommendations
-- ✅ **8 industry profiles** — scoring weights tailored to your domain (see below)
-- ✅ **Multilingual** — feedback auto-detected in 8+ languages, prompts localized
-- ✅ **Analysis history** — view all past analyses, score trends across resume versions
-- ✅ **Batch upload** — analyse up to 10 resumes in one go
-- ✅ **LinkedIn import** — paste full LinkedIn profile text instead of uploading a file
-- ✅ **6 export formats** — PDF Report, CSV, Excel, JSON, Markdown, Notion, Google Docs
-- ✅ **Responsive design** — optimized for desktop, tablet, mobile
+- → **7-category AI scoring** with composite score (1–10)
+- → **Job description matching** — Required / Preferred / Nice-to-have keyword tiers with relevance %
+- → **ATS simulation** — see extracted text, parsability score, formatting issues
+- → **AI resume rewriting** — bullet-point suggestions side-by-side with originals + reasoning
+- → **Cover letter generation** — auto-drafted, tailored to role + resume
+- → **Integrated job search** — live listings from Jobicy, JSearch, Adzuna, ranked by relevance to your skills
+- → **Multi-candidate comparison** — upload 2+ resumes, auto-rank by composite fit, get interview recommendations
+- → **8 industry profiles** — scoring weights tailored to your domain (see below)
+- → **Multilingual** — feedback auto-detected in 8+ languages, prompts localized
+- → **Analysis history** — view all past analyses, score trends across resume versions
+- → **Batch upload** — analyse up to 10 resumes in one go
+- → **LinkedIn import** — paste full LinkedIn profile text instead of uploading a file
+- → **6 export formats** — PDF Report, CSV, Excel, JSON, Markdown, Notion, Google Docs
+- → **Responsive design** — optimized for desktop, tablet, mobile
 
 ---
 
@@ -125,11 +125,11 @@ HireLens supports **5 leading AI providers** with bring-your-own-key architectur
 
 | Provider | Tier | Models | Latency | Free Quota | Best For | Setup Link |
 |---|---|---|---|---|---|---|
-| **Groq** 🚀 | Free | LLaMA 3.3 70B, Mixtral 8x7B | ⚡⚡⚡ 3–5s | Unlimited* | **→ Start here** — fastest, most generous | [console.groq.com](https://console.groq.com) |
-| **Google Gemini** | Free | Gemini 2.0 Flash, Gemini 1.5 Flash | ⚡⚡ 4–7s | 15 req/min | All-rounder, good quality | [aistudio.google.com](https://aistudio.google.com) |
-| **OpenAI** | Paid | GPT-4o, GPT-4o-mini, GPT-4 Turbo | ⚡⚡ 5–9s | — | Production, premium quality | [platform.openai.com](https://platform.openai.com) |
-| **Anthropic** | Paid | Claude Sonnet 4.6, Claude Opus 4.6, Claude Haiku 4.5 | ⚡ 6–10s | — | Deep reasoning, nuance | [console.anthropic.com](https://console.anthropic.com) |
-| **Mistral** | Paid | Mistral Large, Mistral Small, open-mistral-nemo | ⚡⚡ 7–12s | — | Cost-effective, fast | [console.mistral.ai](https://console.mistral.ai) |
+| **Groq** [Default] | Free | LLaMA 3.3 70B, Mixtral 8x7B | Very Fast (3–5s) | Unlimited* | → Start here — fastest, most generous | [console.groq.com](https://console.groq.com) |
+| **Google Gemini** | Free | Gemini 2.0 Flash, Gemini 1.5 Flash | Fast (4–7s) | 15 req/min | All-rounder, good quality | [aistudio.google.com](https://aistudio.google.com) |
+| **OpenAI** | Paid | GPT-4o, GPT-4o-mini, GPT-4 Turbo | Fast (5–9s) | — | Production, premium quality | [platform.openai.com](https://platform.openai.com) |
+| **Anthropic** | Paid | Claude Sonnet 4.6, Claude Opus 4.6, Claude Haiku 4.5 | Moderate (6–10s) | — | Deep reasoning, nuance | [console.anthropic.com](https://console.anthropic.com) |
+| **Mistral** | Paid | Mistral Large, Mistral Small, open-mistral-nemo | Fast (7–12s) | — | Cost-effective, fast | [console.mistral.ai](https://console.mistral.ai) |
 
 *Groq's free tier has very generous limits (100s of analyses/day for personal use)
 
@@ -161,10 +161,10 @@ Each provider has a free trial credit ($5–20) to test before paying.
 
 ### Why Multiple Providers?
 
-- ✅ **No lock-in** — Switch anytime, no rewrite needed
-- ✅ **Redundancy** — If one provider is down, use another
-- ✅ **Cost optimization** — Use free tier for development, paid for production
-- ✅ **Quality comparison** — Test which provider you prefer
+- → **No lock-in** — Switch anytime, no rewrite needed
+- → **Redundancy** — If one provider is down, use another
+- → **Cost optimization** — Use free tier for development, paid for production
+- → **Quality comparison** — Test which provider you prefer
 
 ---
 
@@ -266,7 +266,7 @@ Senior Software Engineer | 2020 – Present
 ### The Difference
 | Metric | Before | After | Improvement |
 |---|---|---|---|
-| ATS Score | 62 | 89 | +27 points ⬆️ |
+| ATS Score | 62 | 89 | +27 points |
 | Word count | 38 | 89 | +135% (more substantive) |
 | Quantified metrics | 0 | 7 | +700% |
 | Action verbs | 2 | 12 | 6× more impactful |
@@ -310,13 +310,13 @@ A: Not yet. The web app is fully responsive (works great on mobile). Native apps
 
 Planned features for future versions:
 
-- 📱 Native mobile app (iOS/Android)
-- 👤 User accounts & cloud sync (analyses follow you across devices)
-- 💳 Freemium tier (premium features like batch analysis jobs, priority support)
-- 🔗 Direct ATS integration (apply directly from HireLens)
-- 🎤 Voice resume input (dictate instead of upload)
-- 🧠 Interview prep (AI mock interviews, behavioral Q&A)
-- 📊 Career analytics (salary benchmarking, role progression insights)
+- Native mobile app (iOS/Android)
+- User accounts & cloud sync (analyses follow you across devices)
+- Freemium tier (premium features like batch analysis jobs, priority support)
+- Direct ATS integration (apply directly from HireLens)
+- Voice resume input (dictate instead of upload)
+- Interview prep (AI mock interviews, behavioral Q&A)
+- Career analytics (salary benchmarking, role progression insights)
 
 ---
 
@@ -353,10 +353,10 @@ HireLens is built on a **provider-agnostic AI adapter pattern**:
 - **Provider-agnostic endpoints** — same analysis flow, different LLM backends
 
 This design ensures:
-- ✅ No vendor lock-in
-- ✅ Resilience if one provider goes down
-- ✅ Freedom to switch providers without code changes
-- ✅ Clean, testable codebase
+- → No vendor lock-in
+- → Resilience if one provider goes down
+- → Freedom to switch providers without code changes
+- → Clean, testable codebase
 
 ### System Flow
 
@@ -402,15 +402,15 @@ This design ensures:
 
 ---
 
-## 🔒 Source Code Access
+## Source Code Access
 
 **The full source code is available for technical interviews and code review.**
 
 The repository is currently private to protect proprietary prompt engineering techniques and system design details. However:
 
-- ✅ Recruiters & hiring managers — I'll grant access upon request
-- ✅ Interview preparation — Full codebase available before technical interviews
-- ✅ Architecture deep-dive — Walk through design decisions, trade-offs, and implementation
+- → Recruiters & hiring managers — I'll grant access upon request
+- → Interview preparation — Full codebase available before technical interviews
+- → Architecture deep-dive — Walk through design decisions, trade-offs, and implementation
 
 **Why private?** The prompt engineering, scoring logic, and multilingual adaptation techniques are proprietary. The value is in the *how*, not just the *what*.
 
@@ -445,7 +445,7 @@ Got questions? Open an issue or reach out on GitHub.
 
 <div align="center">
 
-**Made with ❤️ for job seekers everywhere**
+**Built for job seekers everywhere.**
 
 © 2026 Sahil Shinde. All rights reserved.
 
