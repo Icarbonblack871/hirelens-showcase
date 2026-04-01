@@ -301,7 +301,7 @@ HireLens is licensed under the **MIT License**. See [LICENSE](LICENSE) for detai
 
 ## About
 
-Built by **[Sahil Shinde](https://github.com/theshindesahil)** as a B.Voc. Computer Technology major project.
+Built by **[Sahil Shinde](https://github.com/theshindesahil)**.
 
 **Live demo:** https://thehirelens.streamlit.app
 **Showcase repo:** https://github.com/theshindesahil/hirelens-showcase
