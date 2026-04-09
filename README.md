@@ -190,9 +190,10 @@ Reach out: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
 
 ## About
 
-Built by **[Sahil Shinde](https://github.com/theshindesahil)**.
+Built by **[Sahil Shinde](https://github.com/theshindesahil)** — Full-stack developer building tools for job seekers.
 
-- Live app: [hirelens-frontend-wvw2.onrender.com](https://hirelens-frontend-wvw2.onrender.com/)
+- Live app: [https://hirelens-frontend-wvw2.onrender.com](https://hirelens-frontend-wvw2.onrender.com/)
+- Showcase repo: [github.com/theshindesahil/hirelens-showcase](https://github.com/theshindesahil/hirelens-showcase)
 - Bugs / feature requests: [open an issue](https://github.com/theshindesahil/hirelens-showcase/issues)
 - Contact: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
 
