@@ -6,7 +6,7 @@
 
 Analyze, score, rewrite, and land interviews — faster.
 
-[![Live App](https://img.shields.io/badge/Live%20App-hirelens-frontend-wvw2.onrender.com-E8A020?style=for-the-badge)](https://hirelens-frontend-wvw2.onrender.com/)
+[![Live App](https://img.shields.io/badge/Live%20App-www.hirelens.online-E8A020?style=for-the-badge)](https://www.hirelens.online)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Built with React](https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![Built with FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
@@ -24,7 +24,7 @@ Upload a resume (PDF or TXT), set your target role and job description, and get 
 > **75% of resumes are filtered out by ATS before reaching a human recruiter.**
 > HireLens helps you make sure yours isn't one of them.
 
-**Try it live:** [hirelens-frontend-wvw2.onrender.com](https://hirelens-frontend-wvw2.onrender.com/)
+**Try it live:** [www.hirelens.online](https://www.hirelens.online)
 
 ---
 
@@ -192,7 +192,7 @@ Reach out: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
 
 Built by **[Sahil Shinde](https://github.com/theshindesahil)** — Full-stack developer building tools for job seekers.
 
-- Live app: [https://hirelens-frontend-wvw2.onrender.com](https://hirelens-frontend-wvw2.onrender.com/)
+- Live app: [https://www.hirelens.online](https://www.hirelens.online)
 - Showcase repo: [github.com/theshindesahil/hirelens-showcase](https://github.com/theshindesahil/hirelens-showcase)
 - Bugs / feature requests: [open an issue](https://github.com/theshindesahil/hirelens-showcase/issues)
 - Contact: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
